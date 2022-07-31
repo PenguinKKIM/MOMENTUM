@@ -1,0 +1,38 @@
+li{
+    color: aliceblue;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+button{
+    border: none;
+    background: none;
+    color: var(--jordy-pink);
+}
+
+
+.todo-component{
+    margin-top: 1%;
+    position: fixed;
+    top: 20%;
+    left: 2%;
+}
+
+#todo-form input{
+    background-color: rgba(0,0,0,0);
+    color: aliceblue;
+    width: 300px;
+    text-align: center;
+    text-shadow: 0px 2px 10px black,0px 2px 5px var(--jordy-green);
+    font-size: 1.2rem;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--jordy-pink);
+}
+
+#todo-form input::placeholder{
+    color: var(--jordy-green);
+    text-align: center;
+    text-shadow: 1px 2px 0px #3600aa, 2px 2px 0px var(--cn-flower);
+}

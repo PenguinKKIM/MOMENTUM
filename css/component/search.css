@@ -1,0 +1,16 @@
+.search-component{
+    margin-top: 3%;
+}
+
+.search-input{
+    width: 30vw;
+    height: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    font-style: italic;    
+    color: var(--light-navy);
+    background-color: var(--jordy-pink);
+    opacity: .9;
+    border: none;
+    box-shadow: 2px 2px var(--jordy-green), -2px -2px var(--cn-flower);
+}

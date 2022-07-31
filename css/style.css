@@ -1,0 +1,41 @@
+
+/*기본요소*/
+@import "reset.css";
+@import "variables.css";
+
+/*구성요소*/
+@import "component/greeting.css";
+@import "component/clock-weather.css";
+@import "component/quotes.css";
+@import "component/animate.css";
+@import "component/todo.css";
+@import "component/search.css";
+
+/*스크린 요소*/
+@import "screen/background.css";
+
+/*폰트 햄릿*/
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&display=swap');
+
+
+
+
+body{
+    font-family: 'Hahmlet', serif;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hidden{
+    display: none;
+}
+
+footer{
+    position:fixed;
+    font-size: .7rem;
+    color: rgba(240, 248, 255, .5);
+    bottom: 1%;
+    right: 1%;
+    margin: 1% 0 0 2%;;
+}

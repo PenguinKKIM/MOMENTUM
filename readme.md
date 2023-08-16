@@ -1,3 +1,1 @@
-# kokoa clone 2022
-
-HTML & CSS got so much better
+처음 맨들었던 momentum 앱
